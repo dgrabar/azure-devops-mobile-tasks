@@ -1,11 +1,4 @@
-![Schema](images/extension-icon.png)
-
 # Android Mobile App Tasks for Azure DevOps (VSTS)
-
-## Install
-
-Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=DanijelGrabar.azure-devops-mobile-tasks)
-
 
 ## Quick overview
 

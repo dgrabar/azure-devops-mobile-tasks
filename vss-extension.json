@@ -1,0 +1,78 @@
+{
+  "manifestVersion": 1,
+  "id": "azure-devops-mobile-tasks",
+  "name": "Azure DevOps Mobile App Tasks for Android",
+  "version": "1.0.2",
+  "publisher": "danijelgrabar",
+  "public": true,
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/dgrabar/azure-devops-mobile-tasks"
+  },
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Tasks for handling Android applications in Azure DevOps (VSTS). Can extract app versionName and versionCode.",
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "content": {
+    "details": {
+      "path": "overview.md"
+    },
+    "license": {
+      "path": "LICENSE"
+    }
+  },
+  "tags": [
+    "version",
+    "versionCode",
+    "versionName",
+    "versioning",
+    "build",
+    "replacement",
+    "android",
+    "xamarin",
+    "xamarin.forms",
+    "package",
+    "manifest",
+    "extract"
+  ],
+  "links": {
+    "home": {
+      "uri": ""
+    },
+    "repository": {
+      "uri": "https://github.com/dgrabar/azure-devops-mobile-tasks"
+    },
+    "issues": {
+      "uri": "https://github.com/dgrabar/azure-devops-mobile-tasks/issues"
+    }
+  },
+  "branding": {
+    "color": "rgb(248,153,56)",
+    "theme": "light"
+  },
+  "icons": {
+    "default": "images/extension-icon.png"
+  },
+  "files": [
+    {
+      "path": "tasks/AndroidVersionExtract"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "android-manifest-package-name",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "tasks/AndroidVersionExtract"
+      }
+    }
+  ]
+}
