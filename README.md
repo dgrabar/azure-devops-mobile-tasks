@@ -15,7 +15,6 @@ The tasks available in this extension are:
 
 Provided are powershell core and a TS script.
 
-Check the [Github](https://github.com/dgrabar/azure-devops-mobile-tasks) for source code.
 
 ## Android - Extract app versionName and versionCode
 Task to extract app versionName and versionCode from the AndroidManifest.xml file at build time.
