@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "azure-devops-mobile-tasks",
   "name": "Azure DevOps Mobile App Tasks for Android",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "danijelgrabar",
   "public": true,
   "repository": {

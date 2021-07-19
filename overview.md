@@ -19,7 +19,7 @@ Task to extract app versionName and versionCode from the AndroidManifest.xml fil
 Extract app versionName and versionCode at build time:
 
 ```yml
-- task: AndroidVersionExtract@1
+- task: android-manifest-extract-version-name-code@1
   inputs:
     pathToAndroidManifest: ...
 ```
